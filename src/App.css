@@ -1,0 +1,81 @@
+@media screen and (min-width:800px) {
+  .App {
+    background-color: #c2edec;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .App-body {
+    width: 70vh;
+    margin-top: -12vh;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    animation: movebff 1s;
+    -webkit-animation: movebff 1s;
+  }
+  .App-body-1 {
+    display: inline-block;
+    border: solid 0.25vmin #fff;
+    border-radius: 50%;
+    padding: 0.25vh;
+  }
+  .App-avatar {
+    width: 27vh;
+    border-radius: 50%;
+  }
+  .App-body-2 {
+    display: inline-block;
+    width: 40vh;
+    vertical-align: middle;
+    padding-left: 6vh;
+  }
+  .App-body-2-header {
+    font-size: 4vh;
+  }
+  .App-body-2-text {
+    font-size: 2vh;
+  }
+  @keyframes movebff {
+    from {
+      margin-top: 12vh;
+      opacity: .1
+    }
+    to {
+      margin-top: -12vh;
+      opacity: 1
+    }
+  }
+  @-moz-keyframes movebff {
+    from {
+      margin-top: 12vh;
+      opacity: .1
+    }
+    to {
+      margin-top: -12vh;
+      opacity: 1
+    }
+  }
+  @-webkit-keyframes movebff {
+    from {
+      margin-top: 12vh;
+      opacity: .1
+    }
+    to {
+      margin-top: -12vh;
+      opacity: 1
+    }
+  }
+  @-o-keyframes movebff {
+    from {
+      margin-top: 12vh;
+      opacity: .1
+    }
+    to {
+      margin-top: -12vh;
+      opacity: 1
+    }
+  }
+}
